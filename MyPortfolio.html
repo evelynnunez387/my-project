@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <title>My Portfolio</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ABFEE6;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 51%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 90%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 109%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>My Portfolio</h1>
+<hr>
+
+<h2>Evelyn Nunez</h2>
+<p></p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="" alt="" style="width:100%">
+      <h3>My websites</h3>
+      <a href="https://5a0bf9eaaa5742bf8e4fc97f2a0e636d.vfs.cloud9.us-east-1.amazonaws.com/_static/beginnerwebsite.html"> About Me ,</a>
+      <a href="https://5a0bf9eaaa5742bf8e4fc97f2a0e636d.vfs.cloud9.us-east-1.amazonaws.com/_static/MyWebsite.html">Second Website</a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="" alt="" style="width:100%">
+      <h3>Scratch Game by Jesus and myself</h3>
+      <a><iframe src="https://scratch.mit.edu/projects/333818066/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe></a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="" alt="" style="width:100%">
+      <h3>Repl.it Story</h3>
+      <a><iframe height="400px" width="100%" src="https://repl.it/@eeveelllynn/SkyblueWelcomeInstructions?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe></a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="" alt="" style="width:100%">
+      <h3>My Work</h3>
+      <p>.</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <img src="" alt="" style="width:100%">
+  <h3>Some Other Work</h3>
+  <p>.</p>
+  <p></p>
+</div>
+
+<!-- END MAIN -->
+
+</div>
+</body>
+</html>
